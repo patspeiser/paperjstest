@@ -1,13 +1,16 @@
-var path = new Path.Rectangle({
-	point: [75, 75],
-	size: [75, 75],
-	strokeColor: 'black'
-});
+function Unit(x, y){
+	var path = new Path.Rectangle({
+		point: [100, 50],
+		size: [75, 150],
+		strokeColor: 'black'
+	});
+}
+
 
 function onResize(event){
 	path.position = view.center;
 }
 
 function onFrame(event){
-	path.rotate(1);
+	path.rotate(0);
 }
