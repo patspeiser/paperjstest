@@ -9,5 +9,5 @@ function onResize(event){
 }
 
 function onFrame(event){
-	path.rotate(5);
+	path.rotate(1);
 }
